@@ -57,7 +57,12 @@ public class BMI {
     }
 
     public void setOption(int option) {
-        this.option = option;
+        if (option > 0) {
+            this.option = option;
+        }
+        else {
+            this.option = 1;
+        }
     }
 
     // method to actually calculate BMI
@@ -77,6 +82,7 @@ public class BMI {
         return bmi;
     }
 
+    //@Override
     public void toString(double bmi) {
         String category = "";
 
