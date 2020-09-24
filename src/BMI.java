@@ -57,7 +57,7 @@ public class BMI {
     }
 
     public void setOption(int option) {
-        if (option > 0) {
+        if (option == 1 || option == 2) {
             this.option = option;
         }
         else {
@@ -82,9 +82,11 @@ public class BMI {
         return bmi;
     }
 
-    //@Override
-    public void toString(double bmi) {
+    @Override
+    public String toString() {
         String category = "";
+        double bmi = calcBMI(getWeight(), getHeight(), getOption());
+        String output = "";
 
         // decision structure to choose the correct category depending on the BMI amount
         if (bmi < 18.5) {
@@ -103,6 +105,7 @@ public class BMI {
         // Printing out the value
         // Formatting the BMI
         DecimalFormat formatter = new DecimalFormat("#0.00");
-        System.out.println("BMI is " + formatter.format(bmi) + " and it falls under the category " + category);
+        output = "BMI is " + formatter.format(bmi) + " and it falls under the category " + category;
+        return output;
     }
 }
