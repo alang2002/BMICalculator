@@ -17,9 +17,9 @@ public class BMI {
 
     // overloaded constructor to accept values inputted by program/user
     public BMI(int weight, int height, int option) {
-        this.weight = weight;
-        this.height = height;
-        this.option = option;
+        setWeight(weight);
+        setHeight(height);
+        setOption(option);
     }
 
     // Getters and setters for all three variables
@@ -66,8 +66,11 @@ public class BMI {
     }
 
     // method to actually calculate BMI
-    public double calcBMI (double weight, double height, int option) {
+    public double calcBMI () {
         double bmi = 0.0;
+        double weight = getWeight();
+        double height = getHeight();
+        int option = getOption();
 
         if (option == 1) {
             // Metric
@@ -85,7 +88,7 @@ public class BMI {
     @Override
     public String toString() {
         String category = "";
-        double bmi = calcBMI(getWeight(), getHeight(), getOption());
+        double bmi = calcBMI();
         String output = "";
 
         // decision structure to choose the correct category depending on the BMI amount
