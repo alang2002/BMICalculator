@@ -78,7 +78,7 @@ public class BMI {
             bmi = weight / (Math.pow(height, 2));
         }
         else if (option == 2) {
-            // Imperial
+            // Standard
             bmi = 703 * (weight / (Math.pow(height, 2)));
         }
 

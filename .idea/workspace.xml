@@ -35,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MorganProjectJava2" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -57,7 +58,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BMITestClass">
+  <component name="RunManager" selected="Application.BMIProgram">
+    <configuration name="BMIProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BMIProgram" />
+      <module name="BMICalculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BMITestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BMITestClass" />
       <module name="BMICalculator" />
@@ -77,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BMIProgram" />
         <item itemvalue="Application.BMITestClass" />
         <item itemvalue="Application.Main" />
       </list>
@@ -122,25 +131,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="195" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600908120982" />
-    <state width="1323" height="138" key="GridCell.Tab.0.bottom" timestamp="1601575890455">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601577018145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601575890455" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601577018145" />
+    <state width="1323" height="206" key="GridCell.Tab.0.bottom" timestamp="1601580554126">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="206" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601580554126" />
     <state width="1877" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600909660243" />
-    <state width="1323" height="138" key="GridCell.Tab.0.center" timestamp="1601575890454">
+    <state width="1323" height="206" key="GridCell.Tab.0.center" timestamp="1601580554126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601575890454" />
+    <state width="1323" height="206" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601580554126" />
     <state width="1877" height="214" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600909660243" />
-    <state width="1323" height="138" key="GridCell.Tab.0.left" timestamp="1601575890454">
+    <state width="1323" height="206" key="GridCell.Tab.0.left" timestamp="1601580554126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601575890454" />
+    <state width="1323" height="206" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601580554126" />
     <state width="1877" height="214" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600909660243" />
-    <state width="1323" height="138" key="GridCell.Tab.0.right" timestamp="1601575890454">
+    <state width="1323" height="206" key="GridCell.Tab.0.right" timestamp="1601580554126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601575890454" />
+    <state width="1323" height="206" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601580554126" />
     <state width="1877" height="214" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600909660243" />
   </component>
 </project>
